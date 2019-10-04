@@ -1,0 +1,29 @@
+Zadanie 1
+Za pomocą pomocą polecenia nc lub netcat zobaczyć wiadomość wysyłaną przez przeglądarkę internetową. (Pomoc: uruchomić nasłuchiwanie na dowolnym porcie, a następnie uruchomić przeglądarkę i postarać się podejrzeć stronę z "localhost" na podanym porcie.
+
+nc -lp 1255
+w przegladarce : 127.0.0.1:1255
+
+
+Zadanie 1b
+
+Proszę za pomocą programu telnet zasymulować działanie przeglądarki WWW. Dokładniej, proszę wykonać połączenie do hosta onet.pl na port 80 i wydać komendę pobierającą stronę główną.
+
+telnet onet.pl 80
+
+GET / HTTP/1.1
+Host: onet.pl
+
+
+Zadanie 2
+Za pomocą programu nc lub netcat wysłać komunikat tekstowy na inny komputer w sieci. Zadanie wykonać w parach
+
+hostname  -> np. pc25d
+
+nc -lp 1255
+
+nc pc25c 1255
+
+Zadanie 3
+Poszukaj poleceń służących do sprawdzania i zmiany konfiguracji sieci (adres IP, DNS, interfejsy sieciowe) w PowerShellu. 
+
