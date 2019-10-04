@@ -1,0 +1,2 @@
+# SK
+notatki n stuff
